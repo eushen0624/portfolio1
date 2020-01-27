@@ -9,31 +9,28 @@
 	<link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet">
 
 	<!-- Aos -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
-</head>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- Fontawesome -->
+	<script src="https://kit.fontawesome.com/5a588874b5.js" crossorigin="anonymous"></script>
 <body>	
 	<header>
 		<h1>I'm Eushen</h1>
-		<p>a web developer.</p>
+		<p>a Web Developer.</p>
 		<div data-aos="fade-up">
-			<button class="btn">View More</button>
+			<button class="btn">Click here</button>
 		</div>
 	</header>
 	<nav>
 		<div class="nav-left">
 			<ul>
 				<li><a href="">About</a></a></li>
+				<li><a href="">Skills</a></li>
 				<li><a href="">Work</a></li>
 				<li><a href="">Contact</a></li>
 			</ul>
-			<h1>Eushen Jungaya</h1>
 		</div>
-		
-
-			
-	
+		<h1>Eushen Jungaya</h1>
 		
 	</nav>	
 	<section class="About">
@@ -44,16 +41,76 @@
 		</div>
 
 	</section>
-	<section class="Work">
-			<h1>Projects</h1>
+	<section class="Skills">
+		<div class="titles">
+			<h1>Skills</h1>
+		</div>
+		<div>
+			<div class="s-left">
+				<div class="s-row">
+					<div class="s-column s-html"><i class="fab fa-html5 fa-5x"></i><h6>HTML</h6></div>
+					<div class="s-column s-css"><i class="fab fa-css3-alt fa-5x"></i><h6>CSS</h6></div>
+					<div class="s-column s-javascript"><i class="fab fa-js fa-5x"></i><h6>Javascript</h6></div>
+				</div>
+				<div class="s-row">
+					<div class="s-column s-php"><i class="fab fa-php fa-5x"></i><h6>PHP</h6></div>
+					<div class="s-column s-react"><i class="fab fa-react fa-5x"></i><h6>React.js</h6></div>
+					<div class="s-column s-angular"><i class="fab fa-angular fa-5x"></i><h6>Angular.js</h6></div>
+				</div>
+			</div>
+			<div class="s-right">
+
+			</div>
+		</div>
 
 	</section>
+	<section class="Work">
+		<div class="w-part1 titles">
+			<h1>Projects</h1>		
+		</div>
+		<div  class="w-part2">
+			<div class="work cap1">
+				<img src="assets/images/cap1.png">
+				<h3>Capstone 1</h3>		
+			</div>
+			<div class="work cap2">
+				<img src="assets/images/sample.jpg">
+				<h3>Capstone 2</h3>
+			</div>
+			<div class="work cap3">
+				<img src="assets/images/sample.jpg">
+				<h3>Capstone 3</h3>
+			</div>
+		</div>
+	</section>
 	<section class="Contact">
+		<div class="titles">
 			<h1>Contact Me</h1>
+		</div>
+
+		<div class="c-form">
+			<div>
+				<p>If you want to contact me or you just want to say Hi, just leave a message below and check out my social media accounts. Thanks!</p>
+			</div>
+			<div class="c-childform">
+				<form>
+					<input name="fullname" class="fullname" type="text" placeholder="Full Name">
+					<input name="email" class="email" type="email" placeholder="Email">
+					<textarea class="message" placeholder="Message"></textarea>
+					<button>Send</button>
+				</form>
+				<div>
+					<i class="fab fa-facebook-f fa-2x"></i>
+					<i class="fab fa-instagram fa-2x"></i>
+					<i class="fab fa-twitter fa-2x"></i>
+				</div>
+			</div>
+		</div>
+
 
 	</section>
 	<script>
-  AOS.init();
-</script>
+ 	 AOS.init();
+	</script>
 </body>
 </html>
